@@ -9,5 +9,13 @@ Then follow these steps:
 git clone https://github.com/heIsThePirate/scrap-bot.git
 cd scrap-bot
 npm install
-npm start
 ```
+- Open the "scrape.js" file and edit the *url* and the *numberOfPages* to scrape from.
+- Save the file
+
+Run:
+```shell
+node scrape.js
+```
+
+A new '.xlsx' file with the scraped data would be generated in the same folder.
